@@ -48,7 +48,7 @@ header {
   text-align: justify;
   padding: 10px;
 }
-.heros img {
+.heros img,.contacts img{
   width: 200px;
   width: 100%;
   height: 150px;
@@ -169,15 +169,7 @@ button {
   padding: 8px 0;
   margin: 10px auto;
   width: 60%;
-}
-.contacts img {
-  width: 200px;
-  width: 100%;
-  height: 170px;
-  border: 4px solid lightblue;
-  border-radius: 50%;
-  object-fit: contain;
-}
+}
 #feecatch .message {
   border: 1px solid lightblue;
   width: 50%;
