@@ -101,16 +101,12 @@ fieldset .buttons a:hover,
   color: #fff;
 }
 
-.skills {
+.tools {
   border: 1px solid lightblue;
   text-align: center;
   padding: 12px;
   width: 60%;
   margin: 0 auto;
-}
-.skills .icons .front,
-.skills .icons .back {
-  display: inline;
 }
 /* projects */
 .pro {
@@ -190,7 +186,7 @@ button {
 .message .links {
   text-align: center;
   padding: 5px 0;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .message .links a {
   text-decoration: none;
@@ -212,7 +208,7 @@ button {
   color: #fff;
   letter-spacing: 10px;
   font-weight: bold;
-  background: #f20;
+  background: #ff6600;
   padding: 15px 0;
   border-radius: 12px;
   width: 60%;
@@ -241,8 +237,8 @@ footer .links {
   padding: 7px;
 }
 @media (max-width: 840px) {
-  .skills {
-    width: 90%;
+  .tools {
+    width: 80%;
   }
   .contacts {
     width: 90%;
@@ -258,7 +254,10 @@ footer .links {
   .box {
     width: 48%;
   }
-  .skills .icon {
+  .tools {
+    width: 85%;
+  }
+  .tools .icon {
     margin: 20px;
   }
 }
@@ -269,7 +268,7 @@ footer .links {
   .message .links .linkicons .icon {
     margin: 10px;
   }
-  .skills .icon {
+  .tools .icon {
     margin: 15px;
   }
   #lists {
@@ -281,7 +280,7 @@ footer .links {
   #lists li a {
     font-size: 1rem;
   }
-  .skills {
-    width: 95%;
+  .tools {
+    width: 96%;
   }
 }
